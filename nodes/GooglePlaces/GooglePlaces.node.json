@@ -1,0 +1,18 @@
+{
+	"node": "n8n-nodes-rogueai-google-places",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Utilities", "Data"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://developers.google.com/maps/documentation/places/web-service"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://developers.google.com/maps/documentation/places/web-service/text-search"
+			}
+		]
+	}
+}
