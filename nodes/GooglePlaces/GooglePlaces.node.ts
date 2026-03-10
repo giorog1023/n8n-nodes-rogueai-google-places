@@ -13,7 +13,7 @@ export class GooglePlaces implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Google Places',
 		name: 'googlePlaces',
-		icon: 'file:GooglePlaces.svg',
+		icon: 'file:RoguePlacesV2.svg',
 		group: ['input'],
 		version: 1,
 		subtitle: '={{$parameter["searchText"]}}',
