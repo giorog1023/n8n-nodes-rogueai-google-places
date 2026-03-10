@@ -8,8 +8,8 @@ export class GooglePlacesApi implements ICredentialType {
 	documentationUrl = 'https://developers.google.com/maps/documentation/places/web-service/text-search';
 
 	icon: Icon = {
-		light: 'file:rogueplacesv2.svg',
-		dark: 'file:rogueplacesv2.dark.svg',
+		light: 'file:RoguePlacesV2.svg',
+		dark: 'file:RoguePlacesV2.dark.svg',
 	};
 
 	test = {
