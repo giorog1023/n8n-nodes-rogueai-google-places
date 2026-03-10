@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-rogueai-google-places",
-	"version": "0.1.3",
+	"version": "0.1.4",
 	"description": "n8n community node for Google Places Text Search API",
 	"license": "MIT",
 	"homepage": "https://github.com/giorog1023/n8n-nodes-rogueai-google-places",
