@@ -16,7 +16,8 @@ export class GooglePlaces implements INodeType {
 		icon: 'file:GooglePlaces.svg',
 		group: ['input'],
 		version: 1,
-		description: 'Search places using Google Places Text Search',
+		subtitle: '={{$parameter["searchText"]}}',
+		description: 'Search places using the Google Places API',
 		defaults: {
 			name: 'Google Places',
 		},
