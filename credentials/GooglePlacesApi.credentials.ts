@@ -8,8 +8,8 @@ export class GooglePlacesApi implements ICredentialType {
 	documentationUrl = 'https://developers.google.com/maps/documentation/places/web-service/text-search';
 
 	icon: Icon = {
-		light: 'file:RoguePlacesV2.svg',
-		dark: 'file:RoguePlacesV2.dark.svg',
+		light: 'file:rogueplacesv2.svg',
+		dark: 'file:rogueplacesv2.dark.svg',
 	};
 
 	test = {
@@ -18,6 +18,7 @@ export class GooglePlacesApi implements ICredentialType {
 			url: '/v1/places:searchText',
 			method: 'POST' as const,
 			headers: {
+				'X-Goog-Api-Key': '={{$credentials.apiKey}}',
 				'X-Goog-FieldMask': 'places.displayName',
 			},
 			body: {
